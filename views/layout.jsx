@@ -25,7 +25,7 @@ class Layout extends React.Component {
           </header>
           <main>{this.props.children}</main>
           <footer>
-            <h5>created by Lydia Moore</h5>
+            <h5>Copyright © 2020 created by Lydia Moore. All rights reserved.</h5>
           </footer>
         </body>
       </html>
