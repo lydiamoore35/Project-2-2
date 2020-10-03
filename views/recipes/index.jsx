@@ -7,8 +7,6 @@ class Index extends React.Component {
     return (
       <Layout title="My Recipes">
         <h3 className="myRecipes"> My Recipes </h3>
-        <a href="/recipe/new">
-          <button>New Recipe</button></a>
         {recipes.map((recipe) => {
           return (
             <div className="displayRecipes">
@@ -25,6 +23,9 @@ class Index extends React.Component {
               <form action={`/recipe/edit/${recipe._id}`} method="GET">
                 <input type="submit" value="edit"/>
               </form>
+
+              <a href="/recipe/new">
+              <button>New Recipe</button></a>
             </div>
           ) 
         })} 
