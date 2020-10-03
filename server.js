@@ -43,8 +43,8 @@ app.engine("jsx", require("express-react-views").createEngine());
 app.use(
   session({
     secret: SECRET,
-    resave: false,
     saveUninitialized: false,
+    resave: false,
     store: new MongoStore({mongooseConnection: mongoose.connection}),
   })
 );
