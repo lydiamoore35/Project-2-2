@@ -4,7 +4,7 @@ const Layout = require("../layout.jsx");
 class Fail extends React.Component {
   render() {
     return (
-      <Layout title="The Title!">
+      <Layout title="Log In Failed">
         <h3 className="failedLogin">Failed To Log In</h3>
       </Layout>
     );

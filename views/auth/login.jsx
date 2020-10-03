@@ -4,7 +4,7 @@ const Layout = require("../layout.jsx");
 class Login extends React.Component {
   render() {
     return (
-      <Layout title="LOGIN">
+      <Layout title="Log In">
         <div className="loginField">
           <form action="/auth/login" method="post">
             <input type="text" name="username" placeholder="username"/>
